@@ -64,5 +64,10 @@ runTest(varPackage);
 # Contributing
 Feel free to contribute by opening issues or submitting pull requests on [GitHub](https://github.com/ankit142/ColoredCLI).
 
+# License
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/ankit142/ColoredCLI/blob/main/LICENSE) file for details.
+
+
+
 
 
