@@ -1,5 +1,5 @@
 # ColoredCLI.js
-![Banner](./coloredCLIBanner.jpg)
+![Banner](./coloredCLIBanner.png)
 A npm package written on node to make your command line colorful
 
 
@@ -10,11 +10,15 @@ You can install ColoredCLI using npm:
 
 `npm i coloredcli`
 
+or
+
+`npm install coloredcli`
+
 # Usage
 # Basic Usage
 
 ```javascript
-import * as colorPackage from 'coloredcli';
+import * as colorPackage from 'coloredcli/src/index.mjs';
 
 const colorText = 'Hello, this is a colored text!';
 const bgColorText = 'This text has a colored background!';
@@ -34,6 +38,9 @@ console.log(colorPackage.applyStyle(warningText, 'underline'));
 // Apply color and style in the same console.log
 console.log(colorPackage.applyStyle(colorPackage.applyColor(successText, 'green'), 'bold'));
 ```
+# Output 
+
+![OutputImage](./ExampleOutput.png)
 
 # Running Tests
 In your test script (test.mjs), you can use the runTest function to test different color and style combinations:
