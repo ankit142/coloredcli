@@ -1,5 +1,11 @@
-# ColoredCLI.js
-![Banner](./coloredCLIBanner.png)
+<h1 align="center">
+	<br>
+	<br>
+	<img width="320" src="/coloredCLIBanner.png" alt="coloredCLI">
+	<br>
+	<br>
+	<br>
+</h1>
 A npm package written on node to make your command line colorful
 
 
