@@ -1,11 +1,13 @@
 <h1 align="center">
 	<br>
 	<br>
-	<img width="320" src="/coloredCLIBanner.png" alt="coloredCLI">
+	<img width="320" src="https://github.com/ankit142/ColoredCLI/blob/main/coloredCLIBanner.jpg" alt="coloredCLI">
 	<br>
 	<br>
 	<br>
 </h1>
+
+# ColoredCLI.js
 A npm package written on node to make your command line colorful
 
 
@@ -46,7 +48,7 @@ console.log(colorPackage.applyStyle(colorPackage.applyColor(successText, 'green'
 ```
 # Output 
 
-![OutputImage](./ExampleOutput.png)
+![OutputImage](https://github.com/ankit142/ColoredCLI/blob/main/ExampleOutput.png)
 
 # Running Tests
 In your test script (test.mjs), you can use the runTest function to test different color and style combinations:
@@ -80,7 +82,6 @@ Feel free to contribute by opening issues or submitting pull requests on [GitHub
 
 # License
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/ankit142/ColoredCLI/blob/main/LICENSE) file for details.
-
 
 
 
