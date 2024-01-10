@@ -1,0 +1,13 @@
+{
+  "name": "coloredcli",
+  "version": "1.0.0",
+  "description": "A npm package written on node to make your command line colorful",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test.mjs" 
+  },
+  "keywords": [],
+  "author": "Ankit Guria",
+  "license": "MIT"
+}
