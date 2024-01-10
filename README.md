@@ -37,5 +37,32 @@ console.log(colorPackage.applyStyle(colorPackage.applyColor(successText, 'green'
 # Running Tests
 In your test script (test.mjs), you can use the runTest function to test different color and style combinations:
 
+```javascript
+import { runTest } from 'coloredcli/test-runner';
+
+runTest();
+```
+# Constants
+You can create a separate file (constants.mjs) to store your text constants and use them in your tests:
+
+```javascript
+// constants.mjs
+export const colorText = 'Hello, this is a colored text!';
+export const bgColorText = 'This text has a colored background!';
+export const successText = 'Success message';
+export const errorText = 'Error message';
+export const warningText = 'Warning message';
+export const boldText = 'Ankit Guria says Hi';
+```
+Then, in your test script (test.mjs), you can import and use these constants:
+```javascript
+import * as varPackage from './constants.mjs';
+import { runTest } from 'coloredcli/test-runner';
+
+runTest(varPackage);
+```
+# Contributing
+Feel free to contribute by opening issues or submitting pull requests on [GitHub](https://github.com/ankit142/ColoredCLI).
+
 
 
