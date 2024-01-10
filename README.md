@@ -1,4 +1,5 @@
-# ColoredCLI
+# ColoredCLI.js
+[Banner](./coloredCLIBanner.jpg)
 A npm package written on node to make your command line colorful
 
 
@@ -7,7 +8,7 @@ ColoredCLI is a Node.js package designed to enhance the appearance of text on th
 # Installation
 You can install ColoredCLI using npm:
 
-`npm start`
+`npm i coloredcli`
 
 # Usage
 # Basic Usage
