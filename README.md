@@ -12,7 +12,8 @@ You can install ColoredCLI using npm:
 # Usage
 # Basic Usage
 
-`import * as colorPackage from 'coloredcli';
+```javascript
+import * as colorPackage from 'coloredcli';
 
 const colorText = 'Hello, this is a colored text!';
 const bgColorText = 'This text has a colored background!';
@@ -30,7 +31,8 @@ console.log(colorPackage.applyStyle(errorText, 'italic'));
 console.log(colorPackage.applyStyle(warningText, 'underline'));
 
 // Apply color and style in the same console.log
-console.log(colorPackage.applyStyle(colorPackage.applyColor(successText, 'green'), 'bold'));`
+console.log(colorPackage.applyStyle(colorPackage.applyColor(successText, 'green'), 'bold'));
+```
 
 # Running Tests
 In your test script (test.mjs), you can use the runTest function to test different color and style combinations:
