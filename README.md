@@ -23,7 +23,7 @@ or
 `npm install coloredcli`
 
 # Usage
-# Basic Usage
+# Basic Usage (Examples)
 
 ```javascript
 import * as colorPackage from 'coloredcli/src/index.mjs';
@@ -53,7 +53,6 @@ console.log(colorPackage.applyStyle(colorPackage.applyColor(successText, 'green'
 
 # Test: Playing with loops, exploring all the colors available in the list
 
-# Code: 
 
 ![OutputImage1](https://github.com/ankit142/ColoredCLI/blob/main/media/testCase3.png)
 
@@ -92,6 +91,56 @@ import { runTest } from 'coloredcli/test-runner';
 
 runTest(varPackage);
 ```
+
+# Steps for a layman(Playground)
+1. Create a new project: 
+
+`npm init -y`
+
+This command will create a package.json dependencies for your test file.
+
+# Note: 
+Add the 'module' type in your package.json.
+It should look something like this.
+
+```json
+//package.json
+{
+    "name": "exampleCLI",
+    "version": "1.0.0",
+    "description": "An example CLI using coloredcli",
+    "main": "example.js",
+    "type": "module",
+    "scripts": {
+        "start": "node example.js"
+    },
+    "keywords": [],
+    "author": "Ankit Guria",
+    "license": "ISC",
+    "dependencies": {
+        "coloredcli": "^1.0.4",
+        "coloredcli.js": "^1.0.14"
+    }
+}
+```
+
+2. A new file like - "example.js" to be created. 
+Here is the sample code:
+
+```javascript
+// example.js
+import * as colorPackage from 'coloredcli/src/index.mjs';
+const text = 'This is a colorful story on CLI!';
+// a normal console log statement
+console.log(text)
+// a console log statement equipped with ColoredCLI.js
+console.log(colorPackage.applyBackground(colorPackage.applyColor(text, 'cyan'), 'bgBrightYellow'));
+```
+3. Now run this file, and here you go.
+`node example.js`
+
+4. Play and enjoy more with custom console log statements or something else.
+
 # Contributing
 Feel free to contribute by opening issues or submitting pull requests on [GitHub](https://github.com/ankit142/ColoredCLI).
 
