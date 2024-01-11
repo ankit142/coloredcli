@@ -1,12 +1,34 @@
 {
   "name": "coloredcli",
-  "version": "1.0.12",
+  "version": "1.0.20",
   "description": "A npm package written on node to make your command line colorful",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "node test.mjs"
   },
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/sponsors/ankit142"
+  },
+  "keywords": [
+    "cli",
+    "front-end",
+    "coloredcli",
+    "CLI",
+    "command line",
+    "colorful",
+    "colorscli",
+    "ansi",
+    "colors",
+    "colour",
+    "color",
+    "terminal",
+    "shell",
+    "log",
+    "console",
+    "backend"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/ankit142/ColoredCLI"
@@ -15,7 +37,6 @@
     "url": "https://github.com/ankit142/ColoredCLI/issues"
   },
   "homepage": "https://github.com/ankit142/ColoredCLI#readme",
-  "keywords": [],
   "author": "Ankit Guria",
   "license": "MIT",
   "dependencies": {

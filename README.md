@@ -50,6 +50,11 @@ console.log(colorPackage.applyStyle(colorPackage.applyColor(successText, 'green'
 
 ![OutputImage](https://github.com/ankit142/ColoredCLI/blob/main/ExampleOutput.png)
 
+
+# Test: A story expressing messages to your loved ones
+
+![OutputImageStory](https://github.com/ankit142/ColoredCLI/blob/main/media/ExampleStory.png)
+
 # Running Tests
 In your test script (test.mjs), you can use the runTest function to test different color and style combinations:
 
