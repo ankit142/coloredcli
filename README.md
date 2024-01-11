@@ -140,6 +140,9 @@ console.log(colorPackage.applyBackground(colorPackage.applyColor(text, 'cyan'), 
 `node example.js`
 
 4. Play and enjoy more with custom console log statements or something else.
+The output should be something like this: 
+
+![output4](https://github.com/ankit142/ColoredCLI/blob/main/media/output4.png)
 
 # Contributing
 Feel free to contribute by opening issues or submitting pull requests on [GitHub](https://github.com/ankit142/ColoredCLI).
