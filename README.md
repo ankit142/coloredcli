@@ -104,7 +104,7 @@ Add the 'module' type in your package.json.
 It should look something like this.
 
 ```json
-//package.json
+// package.json
 {
     "name": "exampleCLI",
     "version": "1.0.0",
