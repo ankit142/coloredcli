@@ -51,6 +51,16 @@ console.log(colorPackage.applyStyle(colorPackage.applyColor(successText, 'green'
 ![OutputImage](https://github.com/ankit142/ColoredCLI/blob/main/ExampleOutput.png)
 
 
+# Test: Playing with loops, exploring all the colors available in the list
+
+# Code: 
+
+![OutputImage1](https://github.com/ankit142/ColoredCLI/blob/main/media/testCase3.png)
+
+# Output:
+
+![OutputImage12](https://github.com/ankit142/ColoredCLI/blob/main/media/testOutput3.png)
+
 # Test: A story expressing messages to your loved ones
 
 ![OutputImageStory](https://github.com/ankit142/ColoredCLI/blob/main/media/ExampleStory.png)
