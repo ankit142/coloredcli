@@ -116,7 +116,7 @@ It should look something like this.
     },
     "keywords": [],
     "author": "Ankit Guria",
-    "license": "ISC",
+    "license": "MIT",
     "dependencies": {
         "coloredcli": "^1.0.4",
         "coloredcli.js": "^1.0.14"
